@@ -17,7 +17,7 @@ static int __init helloRPi_init(void){
  *  code is used for a built-in driver (not a LKM) that this function is not required.
  */
 static void __exit helloRPi_exit(void){
-   printk(KERN_INFO "Goodbye world!");
+   printk(KERN_INFO "Goodbye cruel world!\n");
 }
 
 /** @brief A module must use the module_init() module_exit() macros from linux/init.h, which
