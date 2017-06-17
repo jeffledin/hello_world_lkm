@@ -1,0 +1,1 @@
+cmd_/home/pi/Programming/Driver_Dev/hello_world_lkm/helloWorld.ko := ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/pi/Programming/Driver_Dev/hello_world_lkm/helloWorld.ko /home/pi/Programming/Driver_Dev/hello_world_lkm/helloWorld.o /home/pi/Programming/Driver_Dev/hello_world_lkm/helloWorld.mod.o ;  true
